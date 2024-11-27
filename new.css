@@ -1,0 +1,332 @@
+img {
+    width: 200px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    font-family: RedditSans;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.btn :hover {
+    background: transparent;
+    color: #ff4500;
+}
+
+button:hover {
+    background: transparent;
+}
+
+nav-text {
+    color: black;
+}
+
+.container-fluid {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+
+#collapsibleNavbar {
+    text-align: center;
+    margin-left: 200px;
+}
+
+.containers {
+    background: #ff4500;
+    width: 100%;
+    height: 600px;
+}
+
+.reddit {
+    block-size: auto;
+    width: 400px;
+    height: auto;
+    font-size: 1rem;
+    word-break: normal;
+    margin-top: 70px;
+    /* display: flex;
+    float: left; */
+}
+
+.head {
+    font-family: 'Reddit Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    color: #000000;
+    font-size: 70px;
+    text-transform: none;
+    margin-left: 200px;
+    margin-top: 120px;
+}
+
+p {
+    text-align: left;
+    margin-left: 197px;
+}
+
+.img-fluids {
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+h3 {
+    font-weight: 800;
+}
+
+.box {
+    width: 228px;
+    height: 160px;
+
+
+    background-color: #f8f9fa;
+    /* Green color */
+    display: flex;
+    /* Center content inside the box */
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+    /* Text color */
+    color: #ff4500;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    /* Optional border for each box */
+}
+
+.containerr {
+    display: flex;
+    gap: 10px;
+    /* Align boxes in a row */
+    justify-content: space-evenly;
+    /* Add space between boxes */
+    /* background-color: #f0f0f0; */
+    /* Light background for the container */
+    padding: 20px;
+    margin-top: 40px;
+    width: 600px;
+    /* border: 2px solid #ccc; */
+    /* Optional border for the container */
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.img-fluidi {
+    width: 436px;
+    height: 400px;
+    justify-content: end;
+}
+
+.img-fluidi {
+    width: 440px;
+    height: 215px;
+    margin-left: 186px;
+    margin-top: 50px;
+    border-radius: 20px;
+    justify-content: end;
+}
+
+.heads {
+    margin-left: 117px;
+    margin-top: 31px;
+    font-size: 30px;
+}
+
+.date {
+    margin-left: 76px;
+    font-size: 20px;
+}
+
+.img-fluidis {
+    margin-left: 9px;
+    width: 440px;
+    height: 215px;
+    border-radius: 20px;
+    margin-top: 51px;
+
+}
+
+#second {
+    margin-left: -102px;
+    margin-top: 34px;
+}
+
+.img-flud {
+    width: 440px;
+    height: 215px;
+    border-radius: 20px;
+    margin-top: 51px;
+
+}
+
+/* 
+.last {
+    width: 150px;
+    margin-top: 40px;
+}
+
+.fb {
+    width: 30px;
+    display: inline-block;
+    margin-top: 355px;
+}
+
+ul {
+    margin: 9px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    margin-top: 256px;
+    margin-bottom: 1rem;
+}
+
+.table {
+    color: white;
+    justify-content: flex-end;
+    background: none;
+    border: none;
+}
+
+td {
+    border: none;
+    /* Remove cell borders */
+/* padding: 0;
+    /* Remove padding inside cells */
+/* margin: 0;
+    background: transparent;
+    /* Ensure no extra spacing */
+/* text-align: left;
+    /* Align text to the left */
+}
+
+/* table {
+    border-collapse: collapse;
+    /* Remove spacing between cells */
+/* border: none;
+    background: transparent;
+    /* Remove borders */
+/* width: auto;
+    /* Adjust the width based on content */
+}
+
+*/ */ */ */ */ */
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+}
+
+.foot-img {
+
+    width: 30px;
+    margin-left: 50px;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    font-size: 24px;
+    line-height: 32px;
+    color: #ff4500;
+    text-align: left;
+
+}
+
+table td {
+    font-size: 16px;
+    padding: 1%;
+    text-align: left;
+    color: white;
+}
+
+td:hover {
+    /* Change background to gray on hover */
+    color: gray;
+    cursor: pointer;
+    /* Optionally change text color to white */
+}
+
+.footer-copyright {
+    color: #737577;
+    font-size: .75rem;
+}
+
+.table2 td {
+    padding: 10px 0;
+    /* Apply vertical padding to all rows */
+}
+
+@media (max-width: 767px) {
+    .sticky-header {
+        position: sticky;
+        top: 0;
+        background-color: #f8f9fa;
+        /* Light background */
+        z-index: 5;
+        /* Keep header on top */
+    }
+}
+
+.about {
+    z-index: 10;
+}
+
+@media (max-width:600px) {
+    .containers {
+        max-width: 100%;
+    }
+
+    .head {
+        font-size: 50px;
+        text-align: center;
+        margin-right: 40px
+    }
+
+    .col-md-6 p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .reddit {
+        display: block;
+    }
+
+}
+
+.comment {
+    margin-left: 301px;
+}
+
+.im {
+    margin-left: 218px;
+    width: 440px;
+    border-radius: 20px;
+}
+
+.hey {
+    margin-left: 300px;
+    margin-bottom: 40px;
+}
